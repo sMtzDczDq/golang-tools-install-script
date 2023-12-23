@@ -112,7 +112,7 @@ elif [ "$1" == "--version" ]; then
 	else
 		VERSION=$2
 	fi
-elif [ ! -z "$1" ]; then
+elif [ -n "$1" ]; then
 	echo "Unrecognized option: $1"
 	exit 1
 fi

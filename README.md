@@ -22,18 +22,18 @@ Download and run with `wget` or `curl`. Here's the short version using the offic
 
 ```shell
 # Linux typically has wget installed
-wget -q -O - https://git.io/vQhTU | bash
+wget -q -O - https://dub.sh/sJJKm7Z | bash
 
 # macOS typically has curl installed
-curl -L https://git.io/vQhTU | bash
+curl -L https://dub.sh/sJJKm7Z | bash
 ```
 
 Or, if you are more comfortable with the raw URL:
 ```shell
-wget -q -O - https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh | bash
+wget -q -O - https://raw.githubusercontent.com/smtzdczdq/golang-tools-install-script/master/goinstall.sh | bash
 
 # or...
-curl https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh | bash
+curl https://raw.githubusercontent.com/smtzdczdq/golang-tools-install-script/master/goinstall.sh | bash
 ```
 
 ## :package: Install a custom Go version
@@ -43,10 +43,10 @@ Pass the `--version` option into the script including the version that you wish 
 ##### Example:
 
 ```shell
-wget -q -O - https://git.io/vQhTU | bash -s -- --version 1.18
+wget -q -O - https://dub.sh/sJJKm7Z | bash -s -- --version 1.18
 
 # or...
-curl -L https://git.io/vQhTU | bash -s -- --version 1.18
+curl -L https://dub.sh/sJJKm7Z | bash -s -- --version 1.18
 ```
 
 ## :no_entry_sign: Uninstall
@@ -54,10 +54,10 @@ curl -L https://git.io/vQhTU | bash -s -- --version 1.18
 Pass the `--remove` option into the script:
 
 ```shell
-wget -q -O - https://git.io/vQhTU | bash -s -- --remove
+wget -q -O - https://dub.sh/sJJKm7Z | bash -s -- --remove
 
 # or...
-curl -L https://git.io/vQhTU | bash -s -- --remove
+curl -L https://dub.sh/sJJKm7Z | bash -s -- --remove
 ```
 
 ## :pencil: Notes
