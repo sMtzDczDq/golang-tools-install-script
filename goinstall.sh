@@ -122,7 +122,7 @@ if [ -d "$GOROOT" ]; then
   exit 1
 fi
 
-PACKAGE_NAME="go$VERSION.$PLATFORM.tar.gz"
+PACKAGE_NAME="$VERSION.$PLATFORM.tar.gz"
 TEMP_DIRECTORY=$(mktemp -d)
 
 echo "Downloading $PACKAGE_NAME ..."
